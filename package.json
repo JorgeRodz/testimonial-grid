@@ -1,0 +1,26 @@
+{
+  "name": "dummycode",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "pug:watch": "pug -w ./ -o ./ -P",
+    "parcel:serve": "parcel serve ./index.html",
+    "nra-dev": "npm-run-all --parallel pug:watch parcel:serve",
+    "pug:compile": "pug ./index.pug -P",
+    "parcel:build": "parcel build ./index.html",
+    "nra-build": "npm-run-all pug:compile parcel:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fractional": "^1.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+    "autoprefixer": "^10.2.6",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.0.0-beta.3.1",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
