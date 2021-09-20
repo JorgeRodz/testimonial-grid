@@ -1,0 +1,31 @@
+/* ---------- Variables ---------- */
+
+/* ----- color ----- */
+// Primary
+$c-violet: #7541c8;
+$c-dark-grayish-blue: #48556a;
+$c-dark-blackish-blue: #19212e;
+$c-white: #ffffff;
+
+// Neutral
+$c-light-gray: #cfcfcf;
+$c-light-grayish-blue: #ecf2f8;
+
+html {
+  font-size: 50%; /*Reset para REMS - 62.5% = 10px de 16px | 1 rem = 10px  */
+  box-sizing: border-box; /*Aplicar correctamente box-sizing*/
+}
+*,
+*::before,
+*::after {
+  /*Aplicar correctamente box-sizing*/
+  box-sizing: inherit; /*Aplicar correctamente box-sizing*/
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.6rem; /*Para establecer un tamaño estandar a todo el font-size del documento;*/
+}
